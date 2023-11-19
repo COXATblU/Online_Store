@@ -1,0 +1,53 @@
+body{
+  background-color: #1c002e;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.flexblock {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  padding: 25px;
+  width: 80%;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.text {
+  color: rgb(12, 101, 157);
+}
+
+.h {
+  font-size: 30px;
+}
+
+.trash {
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+.but {
+  text-align: center;
+}
+
+.trashphoto {
+  width: 20%;
+  height: auto;
+}
+
+.flexc {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexr {
+  display: flex;
+  flex-direction: row;
+}

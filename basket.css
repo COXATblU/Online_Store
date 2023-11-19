@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+header{
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+
+.info{
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nordfjord{
+  display: inline-block;
+  padding-right: 50px;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.other_info{
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 50px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.products{
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 50px;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+.basket{
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 50px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body{
+  margin: 0;
+  background-color: #131414;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  position: relative;
+  display: block;
+  min-height: 1080px;
+}
+
+.product_{
+  display: block;
+  border: 3px solid;
+  border-color: #ffffff1a;
+  width: 750px;
+  height: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-size: 750px 400px;
+}
+
+.block{
+  padding: 75px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.info_about_block{
+  margin-right: 75px
+}
+
+.header_1{
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+}
+
+.header_2{
+  font-size: 43px;
+  color: rgb(218, 218, 218);
+}
+
+.text_info_block{
+  width: 500px;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+.func_block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_plus{
+  font-size: 24px;
+  height: 50px;
+  width: 150px;
+  border: 2px solid;
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.button_minus{
+  font-size: 24px;
+  height: 50px;
+  width: 150px;
+  border: 2px solid;
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.text{
+  color: white;
+  display: inline-block;
+  font-size: 43px;
+  margin-right: 25px;
+}
+
+footer{
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.modal_ .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.modal-window{
+  position: relative;
+  z-index: 2;
+  width: 550px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15 px rgba(255, 255, 255, 0.95);
+  border: 3px solid;
+  text-align: center;
+  padding: 30px;
+}
+
+.main_header{
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.text_modal{
+  margin-top: 100px;
+}
